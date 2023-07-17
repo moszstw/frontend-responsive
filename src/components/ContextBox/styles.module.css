@@ -1,0 +1,23 @@
+.context_box_wrapper{
+    @apply 
+    flex flex-col items-start max-w-full 
+}
+.titleWrapper{
+    @apply flex gap-2 items-center
+}
+.id{
+    @apply text-[5vw]
+    laptop:text-[1.8vw]
+    
+    mobile:text-[1.8vw]
+}
+.title{
+    @apply text-[8vw] text-[#C2C2C2] 
+    laptop:text-[3.6vw] laptop:leading-[4.2vw]
+    mobile:text-[3.6vw] mobile:leading-[4.2vw]
+}
+.content{
+    @apply  text-[5vw] pt-2
+    laptop:text-[2vw] laptop:leading-[2.8vw] laptop:pt-2
+    mobile:text-[1.8vw] mobile:leading-[2.8vw] mobile:pt-2
+}
